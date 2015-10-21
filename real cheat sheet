@@ -34,4 +34,9 @@ git add -u looks at all the already tracked files and stages the changes to thos
 #### Merging
 
 `$ git merge <branch name>` - allows you to take individual lines of development and merge them into a current branch. The current branch will be updated, but the target branch will be unaffected. Often used with git checkout for selecting the current branch.
-Once you've saved that file, try this:
+
+### Alias
+To simplify a command you can use 
+"git config--global alias.<shortened command> <command name>
+ex: "git config--global alias.st status"
+
